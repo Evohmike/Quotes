@@ -11,7 +11,7 @@ import { QuotesComponent } from './quotes/quotes.component';
     QuotesComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
     FormsModule
   ],
   providers: [],
