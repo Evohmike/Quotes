@@ -1,18 +1,23 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import {FormsModule}from '@angular/forms';
+import { FormsModule} from '@angular/forms';
 
 import { AppComponent } from './app.component';
-import { QuotesComponent } from './quotes/quotes.component';
+import { QuoteComponent } from './quote/quote.component';
+import { QuotesFormComponent } from './quotes-form/quotes-form.component';
+import { DetailsComponent } from './details/details.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    QuotesComponent
+    QuoteComponent,
+    QuotesFormComponent,
+    DetailsComponent
   ],
   imports: [
     BrowserModule,
     FormsModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]

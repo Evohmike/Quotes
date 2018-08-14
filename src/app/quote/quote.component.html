@@ -1,0 +1,17 @@
+<app-quotes-form (addQuote)="addNewQuote($event)"></app-quotes-form>
+<div class="row">
+  <div class="card col-md-4" *ngFor="let saying of quotes;let i= index">
+    <div class="card-header">
+      Quote
+    </div>
+    <div class="card-body">
+      <blockquote class="blockquote mb-0">
+        <p>"{{saying.quote}}"</p>
+        <footer class="blockquote-footer">{{saying.author}} By: <cite title="Source Title">{{saying.user}}</cite></footer>
+      </blockquote>
+    </div>
+    <div>
+      <app-details [saying]='saying' (complete)='removeQuote($event,i)'></app-details>
+    </div>
+  </div>
+</div>
