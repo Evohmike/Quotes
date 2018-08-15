@@ -1,10 +1,10 @@
-# Quotes
+# Quotes.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.1.
+This is an Angular app that allows for creation of quotes that can be upvotted and downvotted .It also allows for deletion of quotes. 15 August 2018.
+By:Evoh Mike.
 
-## Development server
+## Discription.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 
